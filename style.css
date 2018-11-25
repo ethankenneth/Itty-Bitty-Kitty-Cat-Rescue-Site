@@ -1,0 +1,81 @@
+/*This is the style sheet for Project B
+Colors to use:
+Light Purple #9F5CFF
+Dark Purple #6954E8
+Central Blue #697CFF
+Dark Blue #548EE8
+Mint Green #5CC7FF
+*/
+
+html{
+  font-family: helvetica, arial, sans-serif;
+  color: #9F5CFF;
+  background: #6954E8;
+  text-align: center;
+}
+
+
+title{
+  font-family: cursive;
+}
+
+h1{
+  font-family: cursive;
+}
+
+h1, h2, h4{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #6954E8;
+}
+
+p a:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: white;
+}
+tr a:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: white;
+}
+
+tr th a{
+  text-align: center;
+}
+
+p{
+  font-size: 15px;
+}
+
+
+.container{
+  width: 480px;
+  height: auto;
+  margin: 20px auto;
+  background-color: #5CC7FF;
+  padding: 10px;
+}
+
+footer{
+  background-color: #5CC7FF
+}
+
+
+/*Small devices*/
+@media (min-width: 768px) {
+  .container{width: 580px}
+}
+
+/*Medium devices*/
+@media (min-width: 992px) {
+  .container{width: 90%}
+}
+
+/*Small devices*/
+@media (min-width: 1080px) {
+  .container{width: 90%}
+}
